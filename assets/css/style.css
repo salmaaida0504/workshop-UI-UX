@@ -1,0 +1,12 @@
+.navbar-brand {
+  font-size: 16px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #defcf9, #b6eada);
+}
+
+.navbar-brand img {
+  display: flex;
+  /* margin-right: 5px; */
+}
