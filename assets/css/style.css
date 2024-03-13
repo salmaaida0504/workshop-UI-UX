@@ -8,5 +8,46 @@
 
 .navbar-brand img {
   display: flex;
-  /* margin-right: 5px; */
+}
+
+.hover:hover {
+  color: #0d4c92; /* Atur warna teks saat hover */
+  cursor: pointer; /* Ubah kursor saat hover */
+  /* Atur efek transisi */
+  transition: color 0.3s ease;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 500px;
+  width: 500px;
+  filter: brightness(0.5);
+}
+
+.carousel-item h5 {
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 80px;
+  color: #fff;
+}
+
+.carousel-item p {
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 100px;
 }
